@@ -10,24 +10,25 @@ const data = [
     to: "/",
   },
   {
-    label: "ABOUT",
+    label: "ABOUT ME",
     to: "/about",
-  },
-  {
-    label: "CONTACT",
-    to: "/contact",
   },
   {
     label: "SKILLS",
     to: "/skills",
   },
   {
+    label: "RESUME",
+    to: "/resume",
+  },
+  {
     label: "PORTFOLIO",
     to: "/portfolio",
   },
+
   {
-    label: "RESUME",
-    to: "/resume",
+    label: "CONTACT",
+    to: "/contact",
   },
 ];
 const Navbar = () => {

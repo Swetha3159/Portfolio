@@ -6,6 +6,7 @@
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
+    margin-top: -10px;
 
     &_container{
         display:flex;
@@ -13,6 +14,7 @@
         height: inherit;
         padding: 0px 20px;
         width: 100%;
+        flex: 1;
 
         &_logo{
               color: var(--yellow-theme-main-color);
@@ -91,3 +93,4 @@
     }
     
 }
+
